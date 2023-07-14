@@ -1,5 +1,3 @@
-Certainly! Here's a README.md file for the password generator code you provided:
-
 # Password Generator
 
 This is a simple password generator program written in C. It generates random passwords based on user input for the number of characters and the desired combination of characters.

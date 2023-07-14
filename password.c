@@ -23,6 +23,7 @@ int main() {
         scanf("%d", &chars);
     } while (chars < 12);
 
+    system("clear"); // Clear the console screen for cleaner output
     printf("****Select Combination****\n");
     while (getchar() != '\n');
     printf("+--------+--------+--------+--------+\n");
@@ -42,7 +43,7 @@ int main() {
         printf("Combination Used: %s\n", m[combo]);
         printf("Author: %s\n", "MinightDev");
         printf("+--------+--------+--------+--------+\n");
-        sleep(5);  // Delay for 5 seconds before program exits
+        sleep(10);  // Delay for 10 seconds before program exits
     } else {
         printf("Error, (%d) invalid choice", combo);
     }

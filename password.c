@@ -17,13 +17,13 @@ int main() {
     printf("*****Password Generator*****\n");
 
     do {
-        system("clear");
+        system("cls");
         printf("* We recommend using 12+ chars\n");
         printf("* How many characters: ");
         scanf("%d", &chars);
     } while (chars < 12);
 
-    system("clear"); // Clear the console screen for cleaner output
+    system("cls"); // Clear the console screen for cleaner output
     printf("****Select Combination****\n");
     while (getchar() != '\n');
     printf("+--------+--------+--------+--------+\n");

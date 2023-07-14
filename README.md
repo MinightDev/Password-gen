@@ -57,7 +57,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgements
 
 The password generator code was created by "MinightDev".
-
----
-
-Feel free to customize and enhance this README.md file according to your needs, providing more details or instructions as necessary.

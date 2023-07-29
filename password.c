@@ -36,7 +36,7 @@ int main() {
     scanf("%d", &combo);
 
     if (combo == 1 || combo == 2 || combo == 3 || combo == 4) {
-        system("clear");  // Clear the console screen
+        system("cls");  // Clear the console screen
         generator(combo, chars, pass);
         printf("+--------+--------+--------+--------+\n");
         printf("Generated Password: %s\n", pass);
